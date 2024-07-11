@@ -46,8 +46,7 @@
         max-width: 1300px;
     }
     .support_box{
-        max-width: 400px;
-        height: 45vh;
+        max-width: 350px;
     }
 
     .support_cotainer h3{
@@ -55,6 +54,22 @@
         left: 90px;
         max-width: 60px;
 
+    }
+
+    .support_box h4{
+        font-size: 25px;
+    }
+
+    .news_container h4{
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .news_content{
+      max-width: 1300px;
+      margin: auto;
+     
+     
     }
 }
 
@@ -101,7 +116,7 @@
     }
 
     .Projects{
-        height: 150vh;
+        height: 170vh;
     }
 
 
@@ -139,7 +154,11 @@
     }
     .support_box{
         max-width: 350px;
-        height: 45vh;
+        height: 55vh;
+    }
+
+    .support_box h4{
+        font-size: 25px;
     }
 
     .support_cotainer h3{
@@ -148,9 +167,31 @@
         max-width: 300px;
         margin: auto;
     }
+
+    
+    .texhniques_content{
+        max-width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .news_container h4{
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .news_content{
+      max-width: 900px;
+      margin: auto;
+     
+     
+    }
+
+    .personal_content{
+        max-width: 1000px;
+    }
+
+
 }
-
-
 
 
 
@@ -210,11 +251,6 @@
         margin: auto;
     }
 
-    .Projects{
-        height: 150vh;
-    }
-
-
     .Project_Box{
         display: flex;
         flex-wrap: wrap;
@@ -249,14 +285,77 @@
     }
     .support_box{
         max-width: 300px;
+        padding: 30px 30px;
         height: 50vh;
     }
+
+
 
     .support_cotainer h3{
         position: relative;
         left: 0px;
         max-width: 300px;
         margin: auto;
+    }
+
+    .support_box h4{
+        font-size: 15px;
+    }
+
+    .texhniques_content{
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+
+    .news_container h4{
+        margin: auto;
+    }
+
+    .news_content{
+      max-width: 700px;
+      margin: auto;
+     
+     
+    }
+
+    .personal_content{
+        max-width: 700px;
+    }
+
+    .contactin{
+        display: flex;
+        gap: 50px;
+    }
+
+    .input_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_1 input[type="text"]{
+        padding: 14px 50px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .input_container h4{
+        text-align: center;
+    }
+
+    .inputbtn textarea{
+       max-width: 400px;
+  
+    }
+
+    .inputbtn button{
+       
+        margin: auto;
+
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -375,7 +474,11 @@
     }
     .support_box{
         max-width: 300px;
+        padding: 30px 30px;
         height: 50vh;
+    }
+    .support_box h4{
+        font-size: 15px;
     }
 
     .support_cotainer h3{
@@ -383,6 +486,61 @@
         left: 0px;
         max-width: 300px;
         margin: auto;
+    }
+
+    .texhniques_content{
+        max-width: 300px;
+    }
+
+    .news_container h4{
+       margin: auto;
+    }
+    .news_content{
+     max-width: 600px;
+     margin: auto;
+    
+    
+    }
+
+    .personal_content{
+        max-width: 350px;
+    }
+
+    .contactin{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .input_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_1 input[type="text"]{
+        padding: 14px 50px;
+        max-width: 400px;
+        margin: auto;
+
+    }
+
+    .input_container h4{
+        text-align: center;
+    }
+
+    .inputbtn textarea{
+       max-width: 400px;
+  
+    }
+
+    .inputbtn button{
+       
+        margin: auto;
+
+    }
+    .footer_container{
+        display: flex;
+        flex-direction: column;
     }
     
 }
@@ -544,6 +702,7 @@
 
     .support_box{
         max-width: 300px;
+        padding: 30px 30px;
         height: 50vh;
     }
 
@@ -552,5 +711,48 @@
         left: 0px;
         max-width: 300px;
         margin: auto;
+    }
+
+    .support_box h4{
+        font-size: 15px;
+    }
+
+    .news_container h4{
+        margin: auto;
+    }
+
+    .contactin{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .input_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_1 input[type="text"]{
+        padding: 14px 50px;
+        max-width: 300px;
+        margin: auto;
+
+    }
+
+    .input_container h4{
+        text-align: center;
+    }
+
+    .inputbtn textarea{
+       max-width: 300px;
+  
+    }
+    .inputbtn button{
+        margin: auto;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: column;
     }
 }
